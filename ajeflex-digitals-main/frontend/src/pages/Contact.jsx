@@ -108,7 +108,7 @@ const Contact = () => {
 
   const company = companyInfo || {
     phone: "+1 (555) 123-4567",
-    email: "destinyfrosh952@gmail.com",
+    email: "Ajeflex@gmail.com",
     address: "123 Digital Avenue, Creative District, NY 10001",
     social: {
       instagram: "https://instagram.com/ajeflexdigitals",

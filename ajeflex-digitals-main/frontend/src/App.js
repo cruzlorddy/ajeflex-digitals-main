@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import './index.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -10,6 +11,8 @@ import SocialMediaGrowth from './pages/services/SocialMediaGrowth';
 import Portfolio from './pages/Portfolio';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import OurCompaniesPage from './pages/Powered-by-us';
+import StreamlinedChatWidget from './pages/StreamlineChatWidgets';
 
 function App() {
   return (
@@ -22,11 +25,14 @@ function App() {
           <Route path="/services/web-development" element={<WebDevelopment />} />
           <Route path="/services/graphic-design" element={<GraphicDesign />} />
           <Route path="/services/social-media-growth" element={<SocialMediaGrowth />} />
+          <Route path="/powered-by-us" element={<OurCompaniesPage />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        {/* <StreamlinedChatWidget /> */}
       </BrowserRouter>
+      
     </div>
   );
 }

@@ -7,7 +7,7 @@ export const mockData = {
     tagline: "We Build Brands, Websites, and Digital Growth Engines.",
     subtitle: "Custom websites. Beautiful design. Social growth that scales.",
     phone: "+1 (555) 123-4567",
-    email: "destinyfrosh952@gmail.com",
+    email: "Ajeflex@gmail.com",
     address: "123 Digital Avenue, Creative District, NY 10001"
   },
 

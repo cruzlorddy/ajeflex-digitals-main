@@ -337,6 +337,7 @@ const GraphicDesign = () => {
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Take a look at some of our recent design work across different industries.
             </p>
+            touch images to see details 
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

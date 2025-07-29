@@ -10,6 +10,7 @@ import {
   Shield,
   Search,
   Layers,
+  ShoppingCart,
   Database,
   Cpu,
   Monitor
@@ -24,6 +25,11 @@ const WebDevelopment = () => {
       icon: Globe,
       title: 'Custom Website Design',
       description: 'Unique, responsive designs tailored to your brand identity and business goals.'
+    },
+    {
+      icon: ShoppingCart,
+      title: 'E-commerce',
+      description: 'Scalable online stores with secure payments, seamless checkout, and intuitive product management to drive sales and elevate your brand.'
     },
     {
       icon: Smartphone,
@@ -52,16 +58,55 @@ const WebDevelopment = () => {
     }
   ];
 
+  // const technologies = [
+  //   { name: 'React', category: 'Frontend', color: 'from-blue-400 to-blue-600' },
+  //   { name: 'Next.js', category: 'Framework', color: 'from-gray-700 to-gray-900' },
+  //   { name: 'Node.js', category: 'Backend', color: 'from-green-400 to-green-600' },
+  //   { name: 'MongoDB', category: 'Database', color: 'from-green-500 to-green-700' },
+  //   { name: 'WordPress', category: 'CMS', color: 'from-blue-500 to-blue-700' },
+  //   { name: 'Shopify', category: 'E-commerce', color: 'from-green-600 to-green-800' },
+  //   { name: 'Firebase', category: 'Backend', color: 'from-yellow-400 to-orange-500' },
+  //   { name: 'AWS', category: 'Cloud', color: 'from-orange-400 to-orange-600' }
+  // ];
+
   const technologies = [
-    { name: 'React', category: 'Frontend', color: 'from-blue-400 to-blue-600' },
-    { name: 'Next.js', category: 'Framework', color: 'from-gray-700 to-gray-900' },
-    { name: 'Node.js', category: 'Backend', color: 'from-green-400 to-green-600' },
-    { name: 'MongoDB', category: 'Database', color: 'from-green-500 to-green-700' },
-    { name: 'WordPress', category: 'CMS', color: 'from-blue-500 to-blue-700' },
-    { name: 'Shopify', category: 'E-commerce', color: 'from-green-600 to-green-800' },
-    { name: 'Firebase', category: 'Backend', color: 'from-yellow-400 to-orange-500' },
-    { name: 'AWS', category: 'Cloud', color: 'from-orange-400 to-orange-600' }
-  ];
+  {
+    category: 'Frontend',
+    color: 'from-blue-400 to-blue-600',
+    technologies: ['React', 'Vue.js', 'Tailwind CSS']
+  },
+  {
+    category: 'Backend',
+    color: 'from-green-400 to-green-600',
+    technologies: ['Node.js', 'Express', 'Firebase']
+  },
+  {
+    category: 'Database',
+    color: 'from-green-500 to-green-700',
+    technologies: ['MongoDB', 'PostgreSQL', 'MySQL']
+  },
+  {
+    category: 'Cloud & DevOps',
+    color: 'from-orange-400 to-orange-600',
+    technologies: ['AWS', 'Docker', 'Vercel']
+  },
+  {
+    category: 'CMS',
+    color: 'from-blue-500 to-blue-700',
+    technologies: ['WordPress', 'Strapi', 'Sanity']
+  },
+  {
+    category: 'E-commerce',
+    color: 'from-green-600 to-green-800',
+    technologies: ['Shopify', 'WooCommerce', 'Snipcart']
+  },
+  {
+    category: 'Frameworks',
+    color: 'from-gray-700 to-gray-900',
+    technologies: ['Next.js', 'Nuxt.js', 'SvelteKit']
+  }
+];
+
 
   const packages = [
     {
@@ -230,21 +275,26 @@ const WebDevelopment = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {technologies.map((tech, index) => (
-              <div 
-                key={index}
-                className="card-3d p-6 text-center group"
-                style={{animationDelay: `${index * 0.1}s`}}
-              >
-                <div className={`w-16 h-16 bg-gradient-to-br ${tech.color} rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                  <Layers className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="font-bold text-lg mb-2">{tech.name}</h3>
-                <p className="text-sm text-gray-600">{tech.category}</p>
+                  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {technologies.map((stack, index) => (
+            <div 
+              key={index}
+              className="card-3d p-6 text-center group"
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              <div className={`w-16 h-16 bg-gradient-to-br ${stack.color} rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                <Layers className="w-8 h-8 text-white" />
               </div>
-            ))}
-          </div>
+              <h3 className="font-bold text-lg mb-2">{stack.category}</h3>
+              <ul className="text-sm text-gray-600 space-y-1">
+                {stack.technologies.map((tech, i) => (
+                  <li key={i}>• {tech}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
         </div>
       </section>
 

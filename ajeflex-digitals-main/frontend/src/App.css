@@ -75,7 +75,7 @@ p {
 /* 3D Button Styles */
 .btn-3d {
   position: relative;
-  background: linear-gradient(135deg, #F05A28 0%, #FF6B35 100%);
+  background: linear-gradient(135deg, #c50c2b 0%, #fa0404ff 100%);
   color: white;
   border: none;
   padding: 1.25rem 2.5rem;
@@ -102,7 +102,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #FF6B35 0%, #F05A28 100%);
+  background: linear-gradient(135deg, #c50c2b 0%, #fa0404ff 100%);
   border-radius: 1rem;
   z-index: -1;
   opacity: 0;
@@ -220,7 +220,7 @@ p {
 .node-dot {
   width: 12px;
   height: 12px;
-  background: radial-gradient(circle, #F05A28 0%, #FF6B35 100%);
+  background: radial-gradient(circle, #c50c2b 0%, #fa0404ff 100%);
   border-radius: 50%;
   box-shadow: 
     0 0 20px rgba(240, 90, 40, 0.6),
@@ -258,7 +258,7 @@ p {
 
 /* Gradient Text Enhanced */
 .gradient-text {
-  background: linear-gradient(135deg, #F05A28 0%, #00AEEF 50%, #F05A28 100%);
+  background: linear-gradient(135deg, #F05A28 0%, #00AEEF 50%, #fa0404ff 100%);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -282,13 +282,13 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #F05A28 0%, #FF6B35 100%);
+  background: linear-gradient(180deg, #c50c2b 0%, #fa0404ff 100%);
   border-radius: 4px;
   box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #FF6B35 0%, #F05A28 100%);
+  background: linear-gradient(180deg, #c50c2b 0%, #fa0404ff 100%);
 }
 
 /* Hero Section Enhancements */
@@ -316,7 +316,7 @@ p {
 
 /* Service Icon 3D Effect */
 .service-icon-3d {
-  background: linear-gradient(135deg, #F05A28 0%, #FF6B35 100%);
+  background: linear-gradient(135deg, #c50c2b 0%, #fa0404ff 100%);
   border-radius: 1.5rem;
   box-shadow: 
     0 8px 25px rgba(240, 90, 40, 0.4),
@@ -383,7 +383,7 @@ p {
 }
 
 .filter-modern.active {
-  background: linear-gradient(135deg, #F05A28 0%, #FF6B35 100%);
+  background: linear-gradient(135deg, #c50c2b 0%, #fa0404ff 100%);
   color: white;
   border-color: transparent;
   box-shadow: 
