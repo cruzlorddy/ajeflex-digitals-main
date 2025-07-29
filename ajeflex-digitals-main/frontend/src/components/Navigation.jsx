@@ -254,11 +254,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-12 h-12 rounded-2xl flex items-center justify-center service-icon-3d group-hover:scale-110 transition-transform duration-300">
+            <div className=" rounded-2xl flex items-center justify-center  group-hover:scale-110 transition-transform duration-300">
               <img
-                src="AjeFlex-icon.png"
+                src="AjeFlexwhite.png"
                 alt="Ajeflex Logo"
-                className="w-8 h-8 object-contain"
+                className="w-20 h-20 object-contain"
               />
             </div>
             <span className="text-xl font-black text-foreground group-hover:text-primary transition-colors duration-300">
