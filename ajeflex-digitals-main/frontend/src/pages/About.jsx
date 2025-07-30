@@ -19,7 +19,7 @@ const About = () => {
   const stats = [
     { number: '150+', label: 'Projects Completed' },
     { number: '50+', label: 'Happy Clients' },
-    { number: '3+', label: 'Years Experience' },
+    { number: '11+', label: 'Years Experience' },
     { number: '24/7', label: 'Support Available' }
   ];
 
@@ -48,28 +48,34 @@ const About = () => {
 
   const team = [
     {
-      name: 'Alex Johnson',
+      name: 'JUDE AFORKE ENOMATE',
       role: 'Founder & CEO',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face',
-      bio: 'Leading digital innovation for over 8 years with expertise in strategy and business development.'
+      image: 'IMG_5556 copy2.jpg',
+      bio: 'Leading digital innovation for over 11 years with expertise in strategy and business development.'
     },
     {
-      name: 'Sarah Chen',
-      role: 'Creative Director',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b1c0?w=300&h=300&fit=crop&crop=face',
-      bio: 'Award-winning designer specializing in brand identity and user experience design.'
+      name: 'Wonare Ejoor',
+      role: 'Digital Marketing Director',
+      image: '1001021445.jpg',
+      bio: 'Award-winning marketer specializing in social media growth and brand strategy.'
     },
     {
-      name: 'Michael Rodriguez',
-      role: 'Lead Developer',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face',
+      name: 'Osazee Destiny',
+      role: 'Developer',
+      image: 'me.jpg',
       bio: 'Full-stack developer with expertise in modern web technologies and scalable architectures.'
     },
     {
-      name: 'Emily Thompson',
-      role: 'Social Media Strategist',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=300&fit=crop&crop=face',
-      bio: 'Social media expert who has helped brands grow their online presence and engagement.'
+      name: 'Trust Esekhade',
+      role: 'Senior Developer',
+      image: 'Trust.jpeg',
+      bio: 'Experienced software engineer with a passion for building robust and efficient applications.'
+    },
+      {
+      name: 'Kome Martins',
+      role: 'Photography Director',
+      image: 'Trust.jpeg',
+      bio: 'Creative photographer specializing in capturing compelling visuals that tell your brand story.'
     }
   ];
 
@@ -123,27 +129,35 @@ const About = () => {
               <h2 className="text-4xl font-bold mb-6">Our Story</h2>
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                  Founded in 2021, Ajeflex Digitals emerged from a simple belief: every business 
-                  deserves exceptional digital experiences that drive real results. What started 
-                  as a small team of passionate creatives and developers has grown into a 
-                  full-service digital agency.
+                 Ajeflex Digitals was founded in 2018 and officially registered in 2020. Born from a simple yet powerful
+                  belief  that every business deserves outstanding digital experiences that deliver real results .
+                  Ajeflex Digitals began as a small team of passionate creatives and developers. Over time, we’ve grown
+                   into a full-service digital agency, committed to transforming ideas into impactful digital solutions.
                 </p>
                 <p>
-                  We've had the privilege of working with startups, established businesses, and 
-                  everything in between. Our approach combines strategic thinking with creative 
-                  execution, ensuring every project not only looks amazing but also achieves 
-                  measurable business outcomes.
+                  We’ve had the privilege of partnering with startups, growing brands, and established enterprises helping 
+                  each bring their digital vision to life. Whether launching a new product, building a stronger online presence, 
+                  or streamlining user experience, our approach blends strategic insight with bold creative execution. 
+                  We don’t just build beautiful interfaces; we deliver digital solutions that perform and convert
                 </p>
                 <p>
-                  Today, we're proud to be trusted partners to businesses across various industries, 
-                  helping them navigate the digital landscape and achieve sustainable growth.
+                  Over the years, we’ve built a reputation for reliability, innovation, and results. 
+                  From e-commerce platforms and corporate websites to custom apps and branding campaigns, 
+                  we tailor every project to meet specific business goals. We believe in collaboration, clear communication,
+                   and continuous improvement because great results are built on great relationships.
+                </p>
+                <p>
+                 Today, we’re proud to be long-term partners to clients across a wide range of industries,
+                  guiding them through the fast-changing digital landscape with confidence. Our mission remains simple:
+                   to empower businesses with smart, scalable,
+                  and effective digital solutions that drive sustainable growth.
                 </p>
               </div>
             </div>
             <div className="lg:w-1/2">
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop"
+                  src="NPD_4736.jpg"
                   alt="Team collaboration"
                   className="rounded-2xl shadow-lg w-full"
                 />
@@ -156,7 +170,7 @@ const About = () => {
 
       {/* Our Values Section */}
       <section className="section-padding bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 pt-24 pb-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Our Values</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">

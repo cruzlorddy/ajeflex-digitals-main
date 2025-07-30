@@ -144,7 +144,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 {mockData.company.name}. All rights reserved.
+              © 2025 {mockData.company.name}. All rights reserved.
             </p>
 
             {/* Social Links */}

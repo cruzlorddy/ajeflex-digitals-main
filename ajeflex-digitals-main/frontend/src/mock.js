@@ -7,8 +7,8 @@ export const mockData = {
     tagline: "We Build Brands, Websites, and Digital Growth Engines.",
     subtitle: "Custom websites. Beautiful design. Social growth that scales.",
     phone: "+2347082449901",
-    email: "Ajeflex@gmail.com",
-    address: "Sapele Road, Benin City, Edo State, Nigeria"
+    email: "support@ajeflex.com",
+    address: "29, Adesuwa Grammar School Road, GRA Benin City"
   },
 
   // Navigation
