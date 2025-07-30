@@ -122,7 +122,12 @@ const Home = () => {
                     <div className="w-80 h-80 bg-gradient-to-br from-orange-500/10 to-blue-500/10 rounded-full backdrop-blur-3xl border border-white/20 flex items-center justify-center">
                       <div className="w-60 h-60 bg-gradient-to-br from-orange-500/20 to-blue-500/20 rounded-full flex items-center justify-center">
                         <div className="w-40 h-40 bg-gradient-to-br from-orange-500 to-blue-500 rounded-full flex items-center justify-center service-icon-3d">
-                          <Zap className="w-16 h-16 text-white" />
+                          {/* <Zap className="w-16 h-16 text-white" /> */}
+                           <img
+                            src="ajaflexwwww.png"
+                            alt="Ajeflex Logo"
+                            className="w-38 h-38 object-contain"
+                          />
                         </div>
                       </div>
                     </div>

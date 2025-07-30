@@ -6,9 +6,9 @@ export const mockData = {
     name: "Ajeflex Digitals",
     tagline: "We Build Brands, Websites, and Digital Growth Engines.",
     subtitle: "Custom websites. Beautiful design. Social growth that scales.",
-    phone: "+1 (555) 123-4567",
+    phone: "+2347082449901",
     email: "Ajeflex@gmail.com",
-    address: "123 Digital Avenue, Creative District, NY 10001"
+    address: "Sapele Road, Benin City, Edo State, Nigeria"
   },
 
   // Navigation

@@ -92,7 +92,7 @@ const Contact = () => {
 
   const openWhatsApp = () => {
     const message = encodeURIComponent("Hi! I'm interested in your digital services. Can we discuss my project?");
-    window.open(`https://wa.me/2348167666831?text=${message}`, '_blank');
+    window.open(`https://wa.me/2347082449901?text=${message}`, '_blank');
   };
 
   if (companyLoading) {

@@ -308,7 +308,7 @@ const Navigation = () => {
             </Link>
 
             {/* CTA */}
-            <Link to="/contact" className="btn-3d ml-4 group">
+            <Link to="/start" className="btn-3d ml-4 group">
               Get Started
             </Link>
           </div>
@@ -357,7 +357,7 @@ const Navigation = () => {
                 Contact
               </Link>
 
-              <Link to="/contact" className="btn-3d w-full text-center mt-6" onClick={() => setIsOpen(false)}>
+              <Link to="/start" className="btn-3d w-full text-center mt-6" onClick={() => setIsOpen(false)}>
                 Get Started
               </Link>
             </div>
